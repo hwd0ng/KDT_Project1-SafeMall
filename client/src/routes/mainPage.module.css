@@ -1,0 +1,240 @@
+/* main 페이지 */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    /* font-family: 'IBMPlexSansKR-Regular'; */
+}
+
+#container {
+    margin: 0;
+    width: 768px;
+    height: 100%;
+    border: 2px solid black;
+    /* background-color: rgba(232, 233, 235, 1); */
+}
+
+#title {
+    /* border: 2px solid black; */
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25%;
+  }
+  
+  #title > h1 > img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  #title > h1 {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10%;
+    white-space: nowrap;
+    /* border: 10px double rgba(69, 126, 98, 1); */
+    /* border-radius: 80px; */
+    font-size: 50px;
+    /* background-color: transparent; */
+    /* background: linear-gradient(to right, #01652D, #c6e9d5); */
+    color: rgba(32, 39, 79, 1);
+    /* text-shadow: 6px 6px lightgray; */
+    /* box-shadow: 15px 15px 10px rgb(123, 123, 123);; */
+    text-shadow: 0px 0px 3px gray;
+  }
+  
+  #search{
+    width: 80%;
+    height: 60px;
+    margin: 6% auto;
+    margin-bottom: 15%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    /* border: 2px solid black; */
+    box-shadow: 5px 5px 15px lightgray;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+  }
+  
+  #search > input{
+    font-size: 25px;
+    width: 30%;
+    height: auto;
+    flex: 1;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+  }
+
+
+  #search > button {
+    height: auto;
+    font-size: 30px;
+    padding: 1%;
+    background-color: white;
+    width: 10%;
+    /* border: 1px solid black; */
+    border: none;
+    border-radius: 30px;
+  }
+  
+  #search > button:hover{
+    cursor: pointer;
+    background-color: lightgray;
+  }
+  
+  #site {
+    /* border: 1px solid black; */
+    width: auto;
+    margin: 0 10%;
+    font-size: 28px;
+    display: flex;
+    align-items: baseline;
+    font-weight: bold;
+  }
+  
+  
+  #site > .count {
+    /* border: 1px solid black; */
+    font-size: 18px;
+    margin-left: 1%;
+  }
+  
+  /* .site {
+    margin-left: 10%;
+    font-weight: bold;
+    font-size: 25px;
+  } */
+
+  .table{
+      margin-bottom: 50px;
+      /* border: 2px solid black; */
+  }
+
+  .moreBtn{
+    border: none;
+    background-color: none;
+    margin-left: auto;
+  }
+  .moreBtn:hover{
+    background-color: lightgray;
+  }
+
+ .listcard{
+    /* border: 1px solid black; */
+    margin: 3% 10%;
+    font-size: 25px;
+    padding: 0% 4%;
+    padding-top: 1.5%;
+    border-radius: 30px;
+    line-height: 1.5;
+    width: auto;
+    background-color: rgba(81, 80, 118, 0.1);
+    box-shadow: 5px 5px 10px gray;
+    border: 1px solid lightgray;
+    color: rgba(32, 39, 79, 1);
+    transition: max-height 2s ease-in-out, opacity 2s ease-in-out;
+    position: relative;
+ }
+
+ .arrow{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 5%;
+}
+
+.arrow:hover {
+  color: lightgray;
+  cursor: pointer;
+}
+
+
+  .detailcard {
+    margin: 5px 0;
+    font-size: 25px;
+    padding: 1% 1%;
+    line-height: 1.5;
+    width: 100%;
+    background-color: rgba(81, 80, 118, 0);
+    border-top: 2px dotted rgba(32, 39, 79, 1);
+    border-bottom: 2px dotted rgba(32, 39, 79, 1);
+    color: rgba(32, 39, 79, 1);
+  }
+  
+  
+  .listcard > p {
+    margin-right: 1%;
+    width: fit-content;
+  }
+  
+ 
+  .detail {
+    font-size: 20px;
+  }
+
+.detailBtn{
+  text-align: center;
+  padding: 0 2%;
+}
+
+.directBtn {
+  width: 100%;
+  text-align: center;
+  padding: 1% 2%;
+  margin: 0 auto;
+  background-color: rgba(32, 39, 79, 1);
+  color: lightgray;
+  border-radius: 10px;
+  margin-bottom: 2%;
+  font-size: 1em;
+  /* font-weight: bold; */
+}
+
+.directBtn:hover {
+  background-color: lightgray;
+  color : rgba(32, 39, 79, 1);
+}
+  
+
+  
+  
+  #more {
+    margin: 0 auto;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+  
+  #more > button {
+    text-align: center;
+    font-size: 30px;
+    width: 20%;
+    padding: 1% 2%;
+    color: white;
+    background-color: rgba(32, 39, 79, 1);
+    /* border: 1px solid lightgray; */
+    box-shadow: 5px 5px 15px gray;
+    border-radius: 30px;
+  }
+  
+  #more button:hover {
+    background-color: rgba(81, 80, 118, 1);
+    color: white;
+  }
+  
+  .bottom {
+    height: 75px;
+    background-color: white;
+  }
+
+  .noData{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    font-size: 50px;
+  }
+
+  

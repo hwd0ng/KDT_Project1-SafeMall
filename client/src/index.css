@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 768px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.bg-body-tertiary {
+  background: linear-gradient(to right, #1A2042, #1A2042);
+}
+
+.topnav{
+  height: 75px;
+}
+
+.navbar-brand, .navbar-toggler {
+  font-size: 36px;
+  color: white !important;
+}
+.navbar-brand{
+  margin-left: 20px;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+.offcanvas-header{
+  background-color: #1A2042;
+}
+.btn-close{
+  background-color: white;
+  font-size: 48px;
+  margin-right: 20px!important;
+}
+.offcanvas {
+  width: 80% !important; /* 화면 전체 너비를 강제 적용 */
+}
+.offcanvas-title{
+  margin-left: 20px;
+  font-size: 48px;
+  color: white;
+}
+.offcanvas-body {
+  background-color: #E8E9EB;
+}
+.navbar.fixed-top {
+  height: 70px;
+}
+.navbar .container-fluid {
+  align-items: center; /* Center the contents vertically */
+}
+/* .btn{
+  margin: 20px auto 0 10px;
+  background-color:rgba(81, 80, 118, 1);
+  color: white;
+  font-size: 36px;
+} */
+.bottom-nav {
+  width: 100%;
+  height: 75px;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1A2042;
+}
+.bottom-nav button {
+  background: none;
+  border: none;
+  color: white;
+}
+.nav-item{
+  font-size: 36px;
+}
+
+.btn-close{
+  background-color: white !important;
+}

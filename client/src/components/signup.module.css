@@ -1,0 +1,91 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    width: 768px ;
+}
+.main{
+    width: 100% ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    margin-top: 150px !important;
+    font-size: 64px !important;
+    margin-bottom: 100px !important;
+}
+
+/* .googleAuthbtn{
+    width: 500px;
+    height: 100px;
+    margin: 20px;
+    background-image: url('/public/google.svg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    font-size: 32px;
+    color: white;
+}
+
+.googleAuthbtn>p{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.naverAuthbtn{
+    width: 500px;
+    height: 100px;
+    margin: 20px;
+    background-image: url('/public/naver.svg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    font-size: 32px;
+    color: white;
+}
+.naverAuthbtn>p{
+    margin-top: 20px;
+    margin-left: 50px;
+} */
+
+.NewRegist{
+    display: flex;
+    justify-content: center;
+}
+
+.NewRegistbtn{
+    width: 320px;
+    height: 80px;
+    margin-top: 20px;
+    background-color: #1A2042;
+    color: white;
+    border-radius: 15px;
+    margin-bottom: 300px;
+    font-size: 32px;
+}
+
+.testLogin{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.forminput{
+    width: 400px;
+    height: 70px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.testLogin input::placeholder {
+    font-size: 24px;
+}
+
+.formactions button{
+    margin-top: 20px;
+    width: 50%;
+    justify-content: center;
+}

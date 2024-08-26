@@ -1,0 +1,95 @@
+.formcontainer {
+    margin: 0 auto;
+  }
+  
+  .formheader {
+    padding: 40px 0 30px 0;
+    text-align: center;
+    font-size: 48px;
+    border-bottom: 1px solid gray;
+    margin-top: 70px;
+  }
+  
+  .formbody {
+    margin-bottom: 20px;
+  }
+  
+  .bodycontainer{
+    padding: 20px 35px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .formlabel {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+  
+  .formlabel span{
+    font-size: 24px;
+    color: #0D6EFD;
+    padding-left: 10px;
+  }
+  
+  .forminput,
+  .formtextarea {
+    width: 100%;
+    height: 76px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: #F1F3F5;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 32px;
+  }
+  
+  ::placeholder {
+    font-size: 32px;
+    vertical-align: middle;
+    line-height: 100%;
+  }
+  
+  ::-webkit-input-placeholder {
+    font-size: 32px;
+    vertical-align: middle;
+    line-height: 100%;
+  }
+  
+  ::-webkit-textarea-placeholder {
+    font-size: 32px;
+    vertical-align: middle;
+    line-height: 100%;
+  }
+  
+  .bodycontainer textarea{
+    resize: none;
+    height: 282px;
+  }
+  
+  .formactions {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 20px 0;
+    margin-bottom: 75px;
+  }
+  
+  .formbutton {
+    height: 80px;
+    width: 360px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #1A2042;
+    color: white;
+    cursor: pointer;
+    font-size: 40px;
+  }
+  
+  .formbutton:hover {
+    background-color: #e2e2e2;
+  }

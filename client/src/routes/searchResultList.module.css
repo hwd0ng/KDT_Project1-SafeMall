@@ -1,0 +1,25 @@
+#arange{
+    display: flex;
+    align-items: center;
+}
+
+.status{
+    margin-right: 50px;
+    text-wrap: nowrap;
+}
+
+#width{
+    width: 80% !important;
+}
+
+#dm{
+    overflow-wrap: anywhere;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}

@@ -1,0 +1,34 @@
+/* .Container{
+    height: 70px !important;
+} */
+#navArea{
+    margin: 0 !important;
+}
+
+.offcanvastitle{
+    margin-left: 20px !important; 
+    font-size: 48px !important;
+    color: white !important;
+}
+
+#navitem{
+    font-size: 36px !important;
+}
+
+.navbarBrand{
+    font-size: 36px !important;
+}
+
+#navitemB{
+    margin-top: 20px;
+    margin-left: 5px;
+    
+}
+#navitemB button{
+    width: 40%;
+    font-size: 30px !important;
+}
+
+#arrange{
+    justify-content: space-around;
+}

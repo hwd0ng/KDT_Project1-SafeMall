@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 768px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.submit{
+    font-size: 24px; /* 아이콘 크기 조정 */
+    cursor: pointer;
+    border: none;
+    background: none; /* 배경 없음 */
+    padding: 8px; /* 패딩 조정 */
+    margin-left: 10px; /* 버튼과 검색창 사이의 여백 조정 */
+}
+
+.searchbar input::placeholder {
+    font-size: 16px;
+  }
+
+.searchbar input[type="search"] {
+    width: 50%; /* 너비를 50%로 조정 */
+    padding: 12px; /* 기존 패딩 유지 */
+    margin-bottom: 20px; /* 하단 여백 유지 */
+    border: 1px solid #ccc; /* 테두리 유지 */
+    border-radius: 8px; /* 모서리 둥글게 */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* 그림자 효과 */
+    font-size: 16px; /* 글자 크기 증가 */
+    color: #333; /* 글자 색상 */
+    background-color: #f8f8f8; /* 배경 색상 */
+    transition: border-color 0.3s; /* 테두리 색상 변화 애니메이션 */
+}
+
+.searchbar input[type="search"]:focus {
+    border-color: #888; /* Change border color on focus */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Emphasize shadow on focus */
+}
+
+.appheader h1 {
+    margin-bottom: 100px; /* Add margin below h1 tag */
+    margin-top: 150px;
+}
+
+.searchbar {
+    margin-top: 20px; /* Add margin above search bar */
+}
+
+.appheader {
+    text-align: center;
+    /* margin-bottom: 40px; */
+}
+
+.notices {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    padding: 0 25px;
+}
+
+.noticeheader, .noticeitem {
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 2fr 1fr; /* Adjust column ratios */
+    gap: 10px; /* Gap between grid items */
+    padding: 10px 20px;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.noticeheader {
+    font-weight: bold;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ccc;
+    font-size: 24px; /* 폰트 크기 조정 */
+}
+
+.noticeheader span:not(:last-child) {
+    border-right: 1px solid black;
+  }
+
+.noticeitem {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s; /* Smooth background color transition */
+    font-size: 24px; /* 폰트 크기 조정 */
+}
+
+.noticeitem:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+}
+
+.createBtnArea{
+    display: flex;
+    justify-content: right;
+}
+
+
+
+/* 상위 요소를 포함하여 특이성 높이기 */
+div.notices .noticeitem a {
+    color: black !important; /* 텍스트 색상을 검정색으로 강제 설정 */
+    text-decoration: none !important; /* 텍스트 밑줄 제거 */
+    display: block !important; /* 링크를 블록 요소로 만들기 */
+    padding: 10px 0 !important; /* 패딩 조정 */
+}
+
+/* 모든 a 태그에 대한 스타일 */
+.content a, .content a:visited {
+    color: black; /* 글자 색상을 검정색으로 강제 설정 */
+    text-decoration: none !important; /* 밑줄 없애기 */
+}
+
+/* 호버 상태에서의 a 태그 스타일 */
+.content a:hover {
+    color: grey !important; /* 호버 시 색상 변경 */
+    text-decoration: underline !important; /* 밑줄 표시 */
+}
+
+
+.loadmore {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.loadmore button {
+    padding: 10px 20px;
+    background: linear-gradient(to right, #1A2042, #1A2042); /* 배경색을 그라디언트로 변경 */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+    margin-bottom: 100px;
+}
+
+.loadmore button:hover {
+    background-color: #7f8a96;
+}
+
+
+.btn.createbtn {
+    padding: 8px 16px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: #1A2042; /* Set the background color */
+    color: white !important;
+    border: none;
+    border-radius: 8px; /* Rounded corners for the button */
+    font-size: 16px; /* Text size */
+    cursor: pointer; /* Cursor indicates clickable */
+    margin-right: 20px; /* Space from the search bar */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.btn.createbtn:hover {
+    background-color: #357ABD; /* Darker shade on hover */
+}
+
+.noData {
+    text-align: center;
+    font-size: 40px
+}
