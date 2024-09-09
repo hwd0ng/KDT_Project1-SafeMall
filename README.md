@@ -1,5 +1,5 @@
 # KDT_Project1-SafeMall
-### 사기 의심 인터넷 쇼핑몰 사이트 조회 서비스
+### 사기 의심 인터넷 쇼핑몰 사이트 조회 가능한 웹앱 제작 프로젝트
 
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/2dcc99b2-465b-4577-b9c4-99ce42bff4a7">
 <hr width="800"> 
