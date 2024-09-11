@@ -1,5 +1,4 @@
-# KDT_Project1-SafeMall
-### 공공데이터를 활용한 사기의심 인터넷 쇼핑몰 조회 웹앱 제작 프로젝트
+# 공공데이터를 활용한 사기의심 인터넷 쇼핑몰 조회 웹앱 제작 프로젝트
 
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/2dcc99b2-465b-4577-b9c4-99ce42bff4a7">
 <hr width="800"> 
