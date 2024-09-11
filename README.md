@@ -66,7 +66,7 @@ npm start 또는 yarn start
 - 피해다발 사이트 쇼핑몰에 맞는 정보가 조회되도록 데이터베이스를 연결하였습니다.
 - 특정 쇼핑몰 검색 시 나타나는 상세조회 결과 화면 프론트 디자인을 구성하였습니다.
 - 해당 쇼핑몰에 맞는 상세정보가 조회되도록 데이터베이스를 연결하였습니다.
-- PPT를 제작하고 및 발표를 담당하였습니다.
+- PPT를 제작하고 발표를 담당하였습니다.
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/d69f5060-087f-4216-8e59-774afad5e7b6">
 <hr width="800">
 
