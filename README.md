@@ -56,6 +56,10 @@ npm start 또는 yarn start
 * **DataBase**
     - MongoDB (쇼핑몰 정보)
     - MySQL (회원가입 정보)
+
+* **협업**
+    - GitHub
+  
 <hr width="800"> 
 
 ### 역할
